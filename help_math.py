@@ -13,3 +13,11 @@ def check_type_input(data: list):
         return inner
     
     return decore
+
+
+
+def ultra_sqrt(x: int) -> float:
+    if x < 0:
+        raise ValueError(f'{x} is negative.')
+    
+    return x ** 0.5
